@@ -1,3 +1,7 @@
+html{
+    font-size: 40px;
+}
+
 body{
     background-color: #1E1647;
     text-align: center;
@@ -7,13 +11,9 @@ body{
 input{
     background-color: #614AD3;
     color: #1E1647;
-    font-size: 24px;
+    font-size: 0.6rem;
     width: 340px;
     height: 70px;
-}
-
-h1{
-    font-size: 40px;
 }
 
 #imagem{
@@ -24,12 +24,12 @@ h1{
 
 .text-y{
     color: #FFFF00;
-    font-size: 20px;
+    font-size: 0.5rem;
 }
 
 ::placeholder{
     color: #1E1647;
     opacity: 0.5;
     text-align: center;
-    font-size: 24px;
+    font-size: 0.6rem;
 }
