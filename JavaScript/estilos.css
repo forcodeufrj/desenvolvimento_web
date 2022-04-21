@@ -1,0 +1,49 @@
+body {
+    background-color: #1e1647;
+    text-align: center;
+    font-family: 'Lexend Deca';
+}
+img {
+    padding: 30px;
+    padding-top: 50px;
+}
+h1 {
+    color: white;
+    font-weight: bolder;
+}
+select {
+    /* TIVE QUE ADICIONAR ISSO AQ */
+    background-color: #614ad3;
+    border-color: #614ad3;
+    width: 160px;
+    height: 32px;
+    color: white;
+    text-align: center;
+}
+input {
+    background-color: #614ad3;
+    border-color: #614ad3;
+    width: 160px;
+    height: 32px;
+    color: white;
+    text-align: center;
+}
+input::placeholder {
+    color: #1e1647;
+    opacity: 0.5;
+}
+p {
+    color: yellow;
+    font-size: small;
+    margin: 0%;
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+.grid-item {
+    padding: 5px 20px;
+}
+.grid-item2 {
+    padding: 10px 20px;
+}
