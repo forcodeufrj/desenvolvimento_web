@@ -13,7 +13,7 @@ function init() {
 
     let pH = -Math.log10(alfa);
 
-    // Assumindo que C_acido e C_sal >>>>> que o alfa NAO E VDD
+    // NAO E VDD: Assumindo que C_acido e C_sal >>>>> que o alfa
     // alfa**2 + (C_sal + ka)*alfa - C_acido*ka = 0
     // Só devemos resolver essa eq de segundo grau
     let a = 1;
